@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: #555;
+  width: 100vw;
+  height: 100%;
+  margin: 0 auto;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+div {
+  width: 300px;
+  height: 300px;
+  border: #000 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.red {
+  background: red;
+}
+.yellow {
+  background: yellow;
+}
+.green {
+  background: green;
+}
